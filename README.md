@@ -123,3 +123,4 @@ id    | owner id  |   name    |   location   |   £/night
 
 These two tables should be enough to satisfy the MVP.
 When users begin booking rooms a Bookings table will be required
+# makersbnb-test
