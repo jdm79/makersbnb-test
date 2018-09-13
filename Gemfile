@@ -14,7 +14,6 @@ gem 'activerecord'
 gem 'simplecov'
 gem 'simplecov-console'
 gem 'sinatra-activerecord'
-gem 'sqlite3'
 gem 'rake'
 
 group :development, :test do
@@ -22,5 +21,7 @@ group :development, :test do
 end
 
 group :production do
+  gem 'sqlite3'
+
   gem "puma"
 end
