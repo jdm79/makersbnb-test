@@ -17,6 +17,6 @@ gem 'sinatra-activerecord'
 # gem 'sqlite3'
 gem 'rake'
 
-group :devlopment, :test do
+group :development, :test do
   gem 'sqlite3'
 end
